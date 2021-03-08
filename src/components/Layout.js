@@ -25,13 +25,17 @@ function Layout() {
         <div className="layout">
             <div className="spacer" />
             <div className="info-line">
-                <SongInfo
-                    songDataState={songDataState}
-                    onSongDataChange={onSongDataChange}
+                <div className="song-info">
+                    <SongInfo
+                        songDataState={songDataState}
+                        onSongDataChange={onSongDataChange}
                 />
-                <Performance
-                    songDataState={songDataState}
-                />
+                </div>
+                <div className="performance">
+                    <Performance
+                        songDataState={songDataState}
+                    />
+                </div>
             </div>
         </div>
     );
