@@ -1,0 +1,27 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+
+
+    width: 100%;
+    height: 100vh;
+}
+
+.spacer{
+    flex-grow: 1;
+
+    background-color: green;
+}
+
+.info-line{
+    display: flex;
+    background-color: purple;
+}
+
+.song-info{
+    flex-grow: 1;
+}
+
+.performance{
+    flex-grow: 1;
+}
